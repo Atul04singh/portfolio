@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atul Singh - MERN Developer</title>
+
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="custom-navbar" id="navbar">
+      <div class="navbar-container">
+        <a class="navbar-logo" href="#home">Atul Singh</a>
+        <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="navbar-menu" id="navbar-menu">
+          <li class="navbar-item">
+            <a class="navbar-link active" href="#home">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#about">About</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#skills">Skills</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#projects">Projects</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#links">Links</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-6 hero-content">
+            <div class="hero-text fade-in">
+              <p class="hero-greeting">Hi, I'm</p>
+              <h1 class="hero-name">Atul Singh</h1>
+              <h2 class="hero-title">MERN Stack Developer</h2>
+              <p class="hero-tagline">Building innovative web solutions with modern technologies. Passionate about creating scalable applications and exploring cutting-edge tech stacks.</p>
+              <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary btn-lg me-3">
+                  <i class="fas fa-briefcase me-2"></i>View My Work
+                </a>
+                <a href="mailto:as3807779@gmail.com" class="btn btn-outline-light btn-lg">
+                  <i class="fas fa-envelope me-2"></i>Get In Touch
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image-wrapper fade-in">
+              <div class="decorative-shape shape-1"></div>
+              <div class="decorative-shape shape-2"></div>
+              <div class="decorative-icon icon-1">
+                <i class="fas fa-code"></i>
+              </div>
+              <div class="decorative-icon icon-2">
+                <i class="fas fa-rocket"></i>
+              </div>
+              <div class="decorative-icon icon-3">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <div class="profile-image-container">
+                <img src="./MyProfileImg.jpg" alt="Atul Singh" class="profile-image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <a href="#about">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="section-header text-center mb-5 fade-up">
+              <h2 class="section-title">About Me</h2>
+              <div class="section-divider"></div>
+            </div>
+            <div class="about-content fade-up">
+              <div class="about-card">
+                <p class="lead text-center mb-4">
+                  I'm a passionate MERN stack developer who loves to experiment with new technologies and build innovative solutions.
+                </p>
+                <div class="row mt-5">
+                  <div class="col-md-6 mb-4">
+                    <div class="personality-card">
+                      <div class="personality-icon">
+                        <i class="fas fa-brain"></i>
+                      </div>
+                      <h4>Learning Enthusiast</h4>
+                      <p>Constantly exploring new tech stacks and staying curious about system design, APIs, and emerging technologies.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="personality-card">
+                      <div class="personality-icon">
+                        <i class="fas fa-lightbulb"></i>
+                      </div>
+                      <h4>Problem Solver</h4>
+                      <p>Open-minded approach to challenges with creative solutions, persistence, and a focus on delivering quality results.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="personality-card">
+                      <div class="personality-icon">
+                        <i class="fas fa-users"></i>
+                      </div>
+                      <h4>Team Player</h4>
+                      <p>Leadership spirit combined with a collaborative mindset, making teamwork both productive and enjoyable.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="personality-card">
+                      <div class="personality-icon">
+                        <i class="fas fa-rocket"></i>
+                      </div>
+                      <h4>Consistent Growth</h4>
+                      <p>Dedicated to self-improvement and passionate about coding, with a joyful and kind approach to every project.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 section-padding bg-dark">
+      <div class="container">
+        <div class="section-header text-center mb-5 fade-up">
+          <h2 class="section-title">Skills & Technologies</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="skills-grid fade-up">
+              <div class="skill-category">
+                <h4 class="category-title">
+                  <i class="fas fa-code"></i>
+                  Programming Languages
+                </h4>
+                <div class="skills-badges">
+                  <span class="skill-badge">Python</span>
+                  <span class="skill-badge">JavaScript</span>
+                  <span class="skill-badge">C++</span>
+                  <span class="skill-badge">Java</span>
+                  <span class="skill-badge">SQL</span>
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h4 class="category-title">
+                  <i class="fas fa-layer-group"></i>
+                  MERN Stack
+                </h4>
+                <div class="skills-badges">
+                  <span class="skill-badge">MongoDB</span>
+                  <span class="skill-badge">Express.js</span>
+                  <span class="skill-badge">React</span>
+                  <span class="skill-badge">Node.js</span>
+                  <span class="skill-badge">EJS</span>
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h4 class="category-title">
+                  <i class="fas fa-paint-brush"></i>
+                  Frontend & Styling
+                </h4>
+                <div class="skills-badges">
+                  <span class="skill-badge">HTML5</span>
+                  <span class="skill-badge">CSS3</span>
+                  <span class="skill-badge">Tailwind CSS</span>
+                  <span class="skill-badge">Bootstrap</span>
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h4 class="category-title">
+                  <i class="fas fa-database"></i>
+                  Backend & Database
+                </h4>
+                <div class="skills-badges">
+                  <span class="skill-badge">Node.js</span>
+                  <span class="skill-badge">Express.js</span>
+                  <span class="skill-badge">Firebase</span>
+                  <span class="skill-badge">SQL</span>
+                  <span class="skill-badge">MongoDB</span>
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h4 class="category-title">
+                  <i class="fas fa-robot"></i>
+                  AI & Integration
+                </h4>
+                <div class="skills-badges">
+                  <span class="skill-badge">LangChain</span>
+                  <span class="skill-badge">Ollama</span>
+                  <span class="skill-badge">AI Integrations</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-parallax-section">
+      <div class="projects-container">
+        <div class="section-header text-center mb-5">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Scroll to explore my work</p>
+        </div>
+
+        <div class="parallax-wrapper">
+          <!-- Project 1 -->
+          <div class="parallax-project" data-project="1">
+            <div class="parallax-content">
+              <div class="parallax-bg" style="background: #023e7d;"></div>
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-lg-6">
+                    <div class="project-info">
+                      <span class="project-number-badge">01</span>
+                      <div class="project-icon-large">
+                        <i class="fas fa-film"></i>
+                      </div>
+                      <h3 class="project-title-large">AutoTube AI</h3>
+                      <p class="project-description-large">
+                        Your personal AI-powered pipeline that auto-generates engaging YouTube Shorts. It combines AI scripting, text-to-speech, image generation, and video compilation. With just one click, you get a ready-to-publish short video — saving time and boosting content creation efficiency.
+                      </p>
+                      <div class="project-tech-large">
+                        <span class="tech-tag-large">Node.js</span>
+                        <span class="tech-tag-large">Express</span>
+                        <span class="tech-tag-large">MoviePy</span>
+                        <span class="tech-tag-large">OpenAI</span>
+                      </div>
+                      <div class="project-links-large">
+                        <a href="https://github.com/Atul04singh/AutoTube-Ai-Content-Creator" class="project-link-large" target="_blank">
+                          <i class="fab fa-github"></i> View Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="project-visual">
+                      <div class="project-carousel">
+                        <div class="carousel-container">
+                          <div class="carousel-track">
+                            <div class="carousel-slide">
+                              <img src="./public/output/autotube/auto1.jpg" alt="Project screenshot 1">
+                            </div>
+                            <div class="carousel-slide">
+                              <img src="./public/output/autotube/auto2.jpg" alt="Project screenshot 3">
+                            </div>
+                            <div class="carousel-slide">
+                              <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Project screenshot 2">
+                            </div>
+                          </div>
+                          <button class="carousel-btn prev" >❮</button>
+                          <button class="carousel-btn next" >❯</button>
+                        </div>
+                        <div class="carousel-dots"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="parallax-project" data-project="2">
+            <div class="parallax-content">
+              <div class="parallax-bg" style="background:#3e1f47;"></div>
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-lg-6">
+                    <div class="project-info">
+                      <span class="project-number-badge">02</span>
+                      <div class="project-icon-large">
+                        <i class="fas fa-graduation-cap"></i>
+                      </div>
+                      <h3 class="project-title-large">Edustream Course Web App</h3>
+                      <p class="project-description-large">
+  Edustream is a full-stack e-learning platform where users can browse, enroll in, and watch courses. 
+  It features an admin dashboard for managing playlists and organizing course content, with YouTube integration for secure video streaming and smooth delivery.
+                      </p>
+                      <div class="project-tech-large">
+                        <span class="tech-tag-large">MongoDB</span>
+                        <span class="tech-tag-large">Express</span>
+                        <span class="tech-tag-large">Node.js</span>
+                        <span class="tech-tag-large">EJS</span>
+                      </div>
+                      <div class="project-links-large">
+                        <a href="https://github.com/Atul04singh/youtube-course-platform" class="project-link-large" target="_blank">
+                          <i class="fab fa-github"></i> View Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="project-visual">
+                      <div class="project-carousel">
+                        <div class="carousel-container">
+                          <div class="carousel-track">
+                            <div class="carousel-slide">
+                              <img src="./public/output/edustream/my-courses.png" alt="Project screenshot 1">
+                            </div>
+                            <div class="carousel-slide">
+                              <img src="./public/output/edustream/about-course.png" alt="Project screenshot 2">
+                            </div>
+                            <div class="carousel-slide">
+                              <img src="./public/output/edustream/content-player(1).png" alt="Project screenshot 3">
+                            </div>
+                          </div>
+                          <button class="carousel-btn prev" >❮</button>
+                          <button class="carousel-btn next" >❯</button>
+                        </div>
+                        <div class="carousel-dots"></div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="parallax-project" data-project="3">
+            <div class="parallax-content">
+              <div class="parallax-bg" style="background:#1b3a4b"></div>
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-lg-6">
+                    <div class="project-info">
+                      <span class="project-number-badge">03</span>
+                      <div class="project-icon-large">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                      </div>
+                      <h3 class="project-title-large">AI Website Builder</h3>
+                      <p class="project-description-large">
+                        Semi-AI WebKit / PromptCraft Toolkit — a 3-part AI-powered static website builder with partial LLM integration. Generates custom content using Gemma3/Llama3 via Ollama, builds HTML/CSS/JS files using ready-made components, and instantly launches & previews websites. Perfect for portfolios or eCommerce sites.
+                      </p>
+                      <div class="project-tech-large">
+                        <span class="tech-tag-large">Tailwind</span>
+                        <span class="tech-tag-large">Bootstrap</span>
+                        <span class="tech-tag-large">Node.js</span>
+                        <span class="tech-tag-large">Ollama</span>
+                      </div>
+                      <div class="project-links-large">
+                        <a href="https://github.com/Atul04singh/StaticWebsite-Builder" class="project-link-large" target="_blank">
+                          <i class="fab fa-github"></i> View Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="project-visual">
+                      <div class="project-carousel">
+                        <div class="carousel-container">
+                          <div class="carousel-track">
+                            <div class="carousel-slide">
+                              <img src="./public/output/StaticWeb/static1.jpg" alt="Project screenshot 1">
+                            </div>
+                            <div class="carousel-slide">
+                              <img src="./public/output/StaticWeb/static2.jpg" alt="Project screenshot 2">
+                            </div>
+                            <div class="carousel-slide">
+                              <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Project screenshot 3">
+                            </div>
+                          </div>
+                          <button class="carousel-btn prev" >❮</button>
+                          <button class="carousel-btn next" >❯</button>
+                        </div>
+                        <div class="carousel-dots"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Links Section -->
+    <section id="links" class="py-5 section-padding bg-dark">
+      <div class="container">
+        <div class="section-header text-center mb-5 fade-up">
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Feel free to reach out or check my work</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="links-grid fade-up">
+              <a href="./public/AtulSingh_portfolio_v3.pdf" class="link-card" download>
+                <div class="link-icon">
+                  <i class="fas fa-file-download"></i>
+                </div>
+                <div class="link-content">
+                  <h4>Download Resume</h4>
+                  <p>View my complete CV</p>
+                </div>
+              </a>
+
+              <a href="https://github.com/Atul04singh" class="link-card" target="_blank">
+                <div class="link-icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="link-content">
+                  <h4>GitHub</h4>
+                  <p>Check out my repositories</p>
+                </div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/atul-singh-a24a122a9/?originalSubdomain=in" class="link-card" target="_blank">
+                <div class="link-icon">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="link-content">
+                  <h4>LinkedIn</h4>
+                  <p>Connect with me professionally</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="footer-text">
+              &copy; 2025 Atul Singh. Built with passion and dedication.
+            </p>
+            <div class="footer-social">
+              <a href="https://github.com/Atul04singh" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/atul-singh-a24a122a9/?originalSubdomain=in" target="_blank" class="social-link">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main JS -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
